@@ -1,0 +1,174 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+
+}
+
+header {
+  border-bottom: 2px solid red;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #ddd;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#about{
+  background-color: skyblue;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact input,
+#contact textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#contact button {
+  padding: 10px;
+  background-color: #0767b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+
+#contact button:hover {
+  background-color: #0f89b9;
+}
+
+
+
+footer {
+  background-color: #696767;
+  color: white;
+  text-align: center;
+  padding: 1px 0;
+}
+#social-links {
+  padding: 10px 0;
+}
+
+#social-links h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+#social-links ul {
+  width: auto;
+  list-style: none;
+  padding: 0;
+}
+
+#social-links ul lu {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-icon {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icon.fb {
+  color: #3b5998;
+}
+
+.social-icon.twitter {
+  color: #1da1f2;
+}
+
+.social-icon.linkedin {
+  color: #0077b5;
+}
+
+.social-icon.email {
+  color: #db4437;
+}
+
+.social-icon:hover {
+  color: #555;
+}
+
+.drip-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ebe3e3;
+  position: relative;
+  display: inline-block;
+  animation: dripAnimation 3s infinite;
+  text-transform: uppercase;
+}
+
+@keyframes dripAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  75% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
